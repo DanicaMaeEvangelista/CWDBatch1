@@ -1,0 +1,21 @@
+body, html {
+    background: beige;
+    
+    margin: 0;
+    font-family: Arial;
+  }
+  .img{
+    float: left;
+    display:block;
+    margin-top: 5px;
+    margin-left: 40%;
+    margin-right: auto;
+    width: 150%;
+    position: 50px;
+    padding: 5px;
+    }
+    img:hover{
+      box-shadow: 0 0 2px 1px rgba(0, 0, 0, 1);
+  
+    }
+

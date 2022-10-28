@@ -1,0 +1,22 @@
+body{
+    text-align:center;
+    background-color:#855e42; 
+    color:#F5F5DC
+}
+h1{
+    background-color:#3D550C;
+    font-size:300%;
+}
+h2{
+    background-color:#59981A;
+    font-size:200%;
+}
+p{
+    font-size:100%;
+    font-family:verdana;
+}
+footer{
+    font-size:100%;
+    font-family:courier;
+    background-color:#3D550C;
+}

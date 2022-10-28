@@ -1,0 +1,125 @@
+<!doctype html>
+</html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+   
+     <script>
+        $(document).ready(function(){
+          $('.modal').modal();
+        });
+       </script>
+  
+           <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+        });
+      </script>
+  
+      <script>
+        $(document).ready(function(){
+          $('.materialboxed').materialbox();
+        });
+      </script>
+  
+      <script>
+      $(document).ready(function(){
+        $('.slider').slider({
+          indicator: true,
+          height: 500,
+          duration: 3000,
+          interval: 5000,
+  
+        });
+        });
+      </script>
+
+    <title>"Material Box"</title>
+</head>
+   <body>
+<nav> 
+   <div class="nav-wrapper brown">
+    <div class="brand-logo">Verse</div>
+    <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </div>
+
+<div class="container">
+
+    <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="nature1.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              
+              <h5 class="black-text text-lighten-5">"Through him all things were made; without him nothing was made that has been made.”– John 1:3</h5>
+            </div>
+          </li>
+          <li>
+            <img src="nature2.jpg" <!-- random image -->
+            <div class="caption center-align">
+              
+              <h5 class="white-text text-lighten-3">"The heavens declare the glory of God; the skies proclaim the work of his hands.” -Psalms 19:1</h5>
+            </div>
+          </li>
+          <li>
+            <img src="nature3.jpeg"> <!-- random image -->
+            <div class="caption center-align">
+              
+              <h5 class="white-text text-lighten-3">“The nations were angry, and your wrath has come. The time has come for judging the dead, and for rewarding your servants the prophets and your people who revere your name, both great and small— and for destroying those who destroy the earth.”– Revelation 11:18</h5>
+            </div>
+          </li>
+            
+        </ul>
+      </div>
+
+<!--Modal-->
+<div class="center">
+    
+    <a href="#modal1" class="btn modal-trigger brown">CLICK </a>
+    >
+    <div id="modal1" class="modal brown white-text">
+        <div class="modal-content">
+            <h5> Life Verse</h5>
+            <p>“So do not fear, for I am with you; do not be dismayed, for I am your God.
+              I will strengthen you and help you; I will uphold you with my righteous right hand.”
+                                                                      – Isaiah 41:10
+
+            </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close btn brown ">Exit</a>
+        </div>
+    </div>
+</div>
+        <!--Light Box-->
+
+    <div class="row">
+        <div class="col s2 m6">
+            <img src="nature4.jpg" width="550" alt="" class="responsive-img materialboxed">
+        </div>
+        <div class="col s2 m5">
+            <img src="nature5.jpg" width="550" alt="" class="responsive-img materialboxed">
+        </div>
+        
+      </div>
+    </div>
+    </div>
+</div>
+
+
+</body>
+</html>
